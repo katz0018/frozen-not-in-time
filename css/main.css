@@ -1,0 +1,24 @@
+body {
+  background-color: #b3fbff;
+  font-family: 'Fredoka One', cursive;
+  background: repeating-linear-gradient(-20deg, #c9fcff 4px, #d4fdff 40px);
+}
+
+h1 {
+  color: #990073;
+}
+
+h2 {
+  color: #c09;
+}
+
+.btn {
+  text-decoration: none;
+  color: #c09;
+}
+
+.btn-ghost {
+  border: solid 4px #990073;
+  padding: .5em 1em;
+  border-radius: 3px;
+}
