@@ -3,7 +3,6 @@ body {
 }
 
 .bg {
-  background-color: #b3fbff;
   background: repeating-linear-gradient(-20deg, #c9fcff 4px, #d4fdff 40px);
   height: 30em;
   position: relative;
@@ -49,8 +48,10 @@ a {
   border-radius: 3px;
 }
 
-a:hover {
-  background-color: rgba(70, 0, 0, 0.5);
+.btn-ghost:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border: solid 4px #990073;
+  color: #990073;
 }
 
 .cream-container {
@@ -91,6 +92,7 @@ a:hover {
 }
 
 @keyframes falling-cone {
+
   0% {
     transform: translate(6em, 0) scale(0.8);
   }
@@ -98,9 +100,11 @@ a:hover {
   100% {
     transform: translate(6em, 18.5em) scale(0.8);
   }
+
 }
 
 @keyframes falling-mint {
+
   0% {
     transform: translate(6em, 0) scale(0.8);
   }
@@ -108,9 +112,11 @@ a:hover {
   100% {
     transform: translate(5.5em, 13em) scale(0.8);
   }
+
 }
 
 @keyframes falling-choco {
+
   0% {
     transform: translate(6em, 0em) scale(0.8);
   }
@@ -118,9 +124,11 @@ a:hover {
   100% {
     transform: translate(6em, 8em) scale(0.8);
   }
+
 }
 
 @keyframes falling-vanilla {
+
   0% {
     transform: translate(5.5em, 0em) scale(0.8);
   }
@@ -128,9 +136,11 @@ a:hover {
   100% {
     transform: translate(5.5em, 3.5em) scale(0.8);
   }
+
 }
 
 @keyframes falling-cherry {
+
   0% {
     transform: translate(8.5em, 0) scale(0.8);
   }
@@ -138,9 +148,11 @@ a:hover {
   100% {
     transform: translate(8.5em, 1em) scale(0.8);
   }
+
 }
 
 @keyframes texty {
+
   0% {
     opacity: 0;
   }
