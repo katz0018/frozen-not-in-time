@@ -13,6 +13,10 @@ h1 {
   color: #990073;
   position: absolute;
   transform: rotate(-14deg) translate(.7em, 1.2em);
+  animation: texty .5s .8s forwards;
+  opacity: 0;
+  filter: blur(11px);
+  text-shadow: 1px 1px 1px rgba(0, 0, .5);
 }
 
 p {
@@ -20,11 +24,17 @@ p {
   position: absolute;
   transform: rotate(-9deg) translate(2em, 6em);
   max-width: 19em;
+  animation: texty .5s .8s forwards;
+  opacity: 0;
+  filter: blur(11px);
 }
 
 a {
   position: absolute;
   transform: translate(4em, 14em);
+  animation: texty .5s .8s forwards;
+  opacity: 0;
+  filter: blur(11px);
 }
 
 .btn {
@@ -127,4 +137,20 @@ a:hover {
   100% {
     transform: translate(8.5em, 1em) scale(0.8);
   }
+}
+
+@keyframes texty {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+
 }
