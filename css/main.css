@@ -15,11 +15,11 @@ h1 {
   transform: rotate(-14deg) translate(.7em, 1.2em);
 }
 
-h2 {
+p {
   color: #c09;
   position: absolute;
   transform: rotate(-9deg) translate(2em, 6em);
-  max-width: 50%;
+  max-width: 19em;
 }
 
 a {
@@ -49,31 +49,82 @@ a:hover {
 .cherry {
   z-index: 5;
   position: absolute;
-  transform: translate(8.5em, 4.5em) scale(0.7);
+  transform: translate(8.5em, -20em) scale(0.8);
+  animation: falling-cherry .5s .8s forwards;
 }
 
 .vanilla {
-  transform: translate(5.5em, 6.5em) scale(0.7);
+  transform: translate(5.5em, -13.5em) scale(0.8);
   z-index: 4;
   position: absolute;
+  animation: falling-vanilla .5s .6s forwards;
 }
 
 .chocolate {
-  transform: translate(6em, 10.5em) scale(0.7);
+  transform: translate(6em, -18em) scale(0.8);
   z-index: 3;
   position: absolute;
+  animation: falling-choco .5s .4s forwards;
 }
 
 .mint {
-  transform: translate(5.5em, 15em) scale(0.7);
+  transform: translate(5.5em, -13em) scale(0.8);
   position: absolute;
+  animation: falling-mint .5s .2s forwards;
 }
 
 .cone {
-  transform: translate(6em, 19.5em) scale(0.7);
+  transform: translate(6em, -18.5em) scale(0.8);
   position: absolute;
+  animation: falling-cone .5s forwards;
 }
 
-@keyframes falling-cream {
+@keyframes falling-cone {
+  0% {
+    transform: translate(6em, 0) scale(0.8);
+  }
 
+  100% {
+    transform: translate(6em, 17em) scale(0.8);
+  }
+}
+
+@keyframes falling-mint {
+  0% {
+    transform: translate(6em, 0) scale(0.8);
+  }
+
+  100% {
+    transform: translate(5.5em, 12em) scale(0.8);
+  }
+}
+
+@keyframes falling-choco {
+  0% {
+    transform: translate(6em, 0em) scale(0.8);
+  }
+
+  100% {
+    transform: translate(6em, 8em) scale(0.8);
+  }
+}
+
+@keyframes falling-vanilla {
+  0% {
+    transform: translate(5.5em, 0em) scale(0.8);
+  }
+
+  100% {
+    transform: translate(5.5em, 3.5em) scale(0.8);
+  }
+}
+
+@keyframes falling-cherry {
+  0% {
+    transform: translate(8.5em, 0) scale(0.8);
+  }
+
+  100% {
+    transform: translate(8.5em, 1em) scale(0.8);
+  }
 }
