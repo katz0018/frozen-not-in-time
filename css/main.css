@@ -1,5 +1,5 @@
 body {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", sans-serif;
 }
 
 .bg {
@@ -27,6 +27,7 @@ p {
   animation: texty .5s .8s forwards;
   opacity: 0;
   filter: blur(11px);
+  text-shadow: 1px 1px 1px rgba(0, 0, .5);
 }
 
 a {
