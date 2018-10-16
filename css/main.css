@@ -12,7 +12,7 @@ body {
 h1 {
   color: #990073;
   position: absolute;
-  transform: rotate(-14deg) translate(.7em, 1.2em);
+  transform: rotate(-11deg) translate(.7em, 1.2em);
   animation: texty .5s .8s forwards;
   opacity: 0;
   filter: blur(11px);
