@@ -4,13 +4,13 @@ body {
 
 .bg {
   background: repeating-linear-gradient(-20deg, #c9fcff 4px, #d4fdff 40px);
-  height: 30em;
+  min-height: 27em;
   position: relative;
   background-color: #b3fbff;
 }
 
 h1 {
-  color: #990073;
+  color: #c09;
   position: absolute;
   transform: rotate(-14deg) translate(.7em, 1.2em);
   animation: texty .5s .8s forwards;
@@ -62,32 +62,32 @@ a {
 .cherry {
   z-index: 5;
   position: absolute;
-  transform: translate(8.5em, -20em) scale(.8);
+  transform: translate(8.5em, -20em) scale(.6);
   animation: falling-cherry .5s .8s forwards;
 }
 
 .vanilla {
-  transform: translate(5.5em, -13.5em) scale(.8);
+  transform: translate(5.5em, -13.5em) scale(.6);
   z-index: 4;
   position: absolute;
   animation: falling-vanilla .5s .6s forwards;
 }
 
 .chocolate {
-  transform: translate(6em, -18em) scale(.8);
+  transform: translate(6em, -18em) scale(.6);
   z-index: 3;
   position: absolute;
   animation: falling-choco .5s .4s forwards;
 }
 
 .mint {
-  transform: translate(5.5em, -13em) scale(.8);
+  transform: translate(5.5em, -13em) scale(.6);
   position: absolute;
   animation: falling-mint .5s .2s forwards;
 }
 
 .cone {
-  transform: translate(6em, -18.5em) scale(.8);
+  transform: translate(6em, -18.5em) scale(.6);
   position: absolute;
   animation: falling-cone .5s forwards;
 }
@@ -95,11 +95,11 @@ a {
 @keyframes falling-cone {
 
   0% {
-    transform: translate(6em, 0) scale(.8);
+    transform: translate(6em, 0) scale(.6);
   }
 
   100% {
-    transform: translate(6em, 18.5em) scale(.8);
+    transform: translate(6em, 16em) scale(.6);
   }
 
 }
@@ -107,11 +107,11 @@ a {
 @keyframes falling-mint {
 
   0% {
-    transform: translate(6em, 0) scale(.8);
+    transform: translate(6em, 0) scale(.6);
   }
 
   100% {
-    transform: translate(5.5em, 13em) scale(.8);
+    transform: translate(5.4em, 12em) scale(.6);
   }
 
 }
@@ -119,11 +119,11 @@ a {
 @keyframes falling-choco {
 
   0% {
-    transform: translate(6em, 0) scale(.8);
+    transform: translate(6em, 0) scale(.6);
   }
 
   100% {
-    transform: translate(6em, 8em) scale(.8);
+    transform: translate(5.9em, 8em) scale(.6);
   }
 
 }
@@ -131,11 +131,11 @@ a {
 @keyframes falling-vanilla {
 
   0% {
-    transform: translate(5.5em, 0) scale(.8);
+    transform: translate(5.5em, 0) scale(.6);
   }
 
   100% {
-    transform: translate(5.5em, 3.5em) scale(.8);
+    transform: translate(5.5em, 4.5em) scale(.6);
   }
 
 }
@@ -143,11 +143,11 @@ a {
 @keyframes falling-cherry {
 
   0% {
-    transform: translate(8.5em, 0) scale(.8);
+    transform: translate(8.5em, 0) scale(.6);
   }
 
   100% {
-    transform: translate(8.5em, 1em) scale(.8);
+    transform: translate(9em, 2.8em) scale(.6);
   }
 
 }
