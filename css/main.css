@@ -6,6 +6,7 @@ body {
   background: repeating-linear-gradient(-20deg, #c9fcff 4px, #d4fdff 40px);
   height: 30em;
   position: relative;
+  background-color: #b3fbff;
 }
 
 h1 {
